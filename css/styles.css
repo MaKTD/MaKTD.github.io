@@ -1326,7 +1326,7 @@
          flex-direction: row-reverse;
          justify-content: center;
          align-items: flex-start;
-         position: fixed;
+         position: absolute;
          top: 48px;
          right: 3%;
          margin: 0;
