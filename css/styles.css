@@ -1646,6 +1646,12 @@
      .full-company-description-link:after {
          display: none;
     }
+    .sponsor-logos-links:hover .sposnor-logos-img {
+        transform: none;
+        border: 2px solid #fff;
+        border-radius: 15%;
+        filter: contrast(500%);
+    }
 }
  @media (max-width: 575.98px) {
     .container {
