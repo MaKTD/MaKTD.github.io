@@ -1641,12 +1641,12 @@
     }
 }
  @media (max-width: 575.98px) {
-     .container {
+    .container {
     	min-width: 320px;
     }
     .advantages-block {
-    	margin: 0 auto;
-    	width: 70%;
+          width: 70%;
+          margin: 20px auto;
     }
     .video-presentation-content {
          width: 100%;
