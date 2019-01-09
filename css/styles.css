@@ -1642,9 +1642,14 @@
 }
  @media (max-width: 575.98px) {
      .container {
-         min-width: 320px;
+    	min-width: 320px;
     }
-     .video-presentation-content {
+    .advantages-block {
+    	margin: 0 auto;
+    	width: 70%;
+
+    }
+    .video-presentation-content {
          width: 100%;
          top: 25%;
          left: 0;
