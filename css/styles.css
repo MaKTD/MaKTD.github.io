@@ -1526,8 +1526,9 @@
          margin: 0 0 13px 28px;
     }
      .article-buttom-line {
-         font-size: 12px;
+         font-size: 11px;
          margin: 0 0 0 28px;
+         white-space: nowrap;
     }
      .video-presentation-content {
          top: calc(50% - 123.5px);
@@ -1639,6 +1640,12 @@
         ;
          margin: 0 0 25px 0;
     }
+     .post-link:after {
+         display: none;
+    }
+     .full-company-description-link:after {
+         display: none;
+    }
 }
  @media (max-width: 575.98px) {
     .container {
@@ -1743,10 +1750,6 @@
          font-size: 12px;
          padding: 23px 0 33px 5%;
     }
-     .post-link:after {
-         top: 26px;
-         left: 96px;
-    }
      .sponsor-logos {
          flex-wrap: wrap;
          padding: 7vh 0 7vh 0;
@@ -1785,10 +1788,6 @@
          width: 93%;
          margin: 0 auto;
          padding: 0;
-    }
-     .full-company-description-link:after {
-         top: 30%;
-         left: 75px;
     }
      .short-posts {
          display: none;
