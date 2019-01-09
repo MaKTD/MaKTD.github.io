@@ -1624,6 +1624,12 @@
          margin: 0 5% 0 0;
          font-size: 30px;
     }
+    .sponsor-logos-links:hover .sposnor-logos-img {
+        transform: none;
+        border: 2px solid #fff;
+        border-radius: 15%;
+        filter: contrast(500%);
+    }
 }
  @media (max-width: 799.98px) {
      .mobile-prewiew {
@@ -1645,12 +1651,6 @@
     }
      .full-company-description-link:after {
          display: none;
-    }
-    .sponsor-logos-links:hover .sposnor-logos-img {
-        transform: none;
-        border: 2px solid #fff;
-        border-radius: 15%;
-        filter: contrast(500%);
     }
 }
  @media (max-width: 575.98px) {
