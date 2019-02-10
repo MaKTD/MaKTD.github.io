@@ -497,11 +497,12 @@
 	}
 	.main-form input {
 		box-sizing: border-box;
-    	width: 90%;
+    	width: 98%;
     	height: 38px;
     	font: 18px 'roboto-regular';
 	}
 	.main-form textarea {
+		box-sizing: border-box;
 		width: 98%;
 		font: 18px 'roboto-regular';
 	}
