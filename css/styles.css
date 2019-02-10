@@ -102,20 +102,16 @@
 	align-self: flex-start;
 	font: 28px 'roboto-regular', sans-serif;
 	color: #fff;
-	margin: 144px 0 0 65px;
+	margin: 160px 0 0 65px;
 	line-height: 48px
 }
 .main-preview-text-worktime {
 	display: block;
-	margin: 65px 0 0 0;
+	margin: 75px 0 0 0;
 }
 .main-preview-text-exp {
 	display: block;
-	margin: 65px 0 0 0;
-}
-.main-preview-text-klientage {
-	display: block;
-	margin: 60px 0 0 0;
+	margin: 75px 0 0 0;
 }
 .crosser {
 	width: 13%;
@@ -380,7 +376,6 @@
 	}
 	.main-preview-text-worktime { margin: 5vw 0 0 0;}
 	.main-preview-text-exp { margin: 5vw 0 0 0;}
-	.main-preview-text-klientage { margin: 5vw 0 0 0;}
 	.form-and-work-orintation-sec {
     	display: flex;
     	flex-wrap: wrap;
@@ -448,7 +443,7 @@
 }
 
 @media (max-width: 576px) {
-		.main-header {
+	.main-header {
 		justify-content: space-evenly;
 		align-items: center;
 	}
@@ -491,11 +486,14 @@
 	}
 	.appointment-form-section {
     	width: 100%;
-    	padding: 0 5px 10px 5px;
+    	padding: 0 0px 10px 0px;
 	}
 	.appointment-form-sec-headline {
 		font: 25px 'roboto-slab-regular';
 		margin: 20px auto 17px auto;
+	}
+	.main-form {
+		width: 95%;
 	}
 	.main-form input {
     	width: 98%;
@@ -529,5 +527,4 @@
 	}
 	.main-preview-text-worktime { margin: 30px 0 0 0;}
 	.main-preview-text-exp { margin: 30px 0 0 0;}
-	.main-preview-text-klientage { margin: 30px 0 0 0;}
 }
