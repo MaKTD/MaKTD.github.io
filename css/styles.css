@@ -496,7 +496,8 @@
 		width: 95%;
 	}
 	.main-form input {
-    	width: 95%;
+		box-sizing: border-box;
+    	width: 98%;
     	height: 38px;
     	font: 18px 'roboto-regular';
 	}
